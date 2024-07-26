@@ -1,0 +1,6 @@
+dnspython==2.3.0
+pkg-resources==0.0.0
+pymongo==4.7.3
+python-dotenv==0.21.1
+tinydb==4.8.0
+typing-extensions==4.7.1
