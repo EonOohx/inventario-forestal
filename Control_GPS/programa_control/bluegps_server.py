@@ -3,7 +3,7 @@ from threading import Thread
 
 
 class BluegpsServer:
-    adapter_addr = 'F4:6A:DD:51:C4:64'
+    adapter_addr = 'XX:XX:XX:XX:XX:XX'
     port = 5  # Normal port for rfcomm?
     buf_size = 1024
     server = None
