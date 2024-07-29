@@ -1,6 +1,6 @@
-dnspython==2.3.0
-pkg-resources==0.0.0
-pymongo==4.7.3
-python-dotenv==0.21.1
+numpy==2.0.0
+opencv-python==4.10.0.84
+pyserial==3.5
+RPi.GPIO==0.7.1
+smbus==1.1.post2
 tinydb==4.8.0
-typing-extensions==4.7.1
