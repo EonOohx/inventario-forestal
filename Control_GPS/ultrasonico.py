@@ -80,26 +80,3 @@ def play_buzzer(Buzz:GPIO.PWM):
     for i in range(len(tune)):
         Buzz.ChangeFrequency(tune[i])  
         time.sleep(durt[i] * .2)    
-
-'''def check_distance_and_sound():
-    distance = Distance_test()
-    print("Distancia medida:", distance, "cm")
-    if distance <= 20:  
-        stop_car()
-        Buzz.start(50)
-        play_buzzer()
-        Buzz.stop()  # Detener buzzer
-    else:
-        run_car()
-        time.sleep(2)  # Espera 2 segundos antes de la siguiente medición
-
-def iniciar_ultrasonico():
-    try:
-        while True:
-            print("Tomando una medición...")
-            check_distance_and_sound()
-            time.sleep(1)  # Espera 2 segundos antes de la siguiente medición
-    except KeyboardInterrupt:
-        print("Medición detenida por el usuario")
-        GPIO.cleanup()
-'''
