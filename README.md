@@ -8,7 +8,7 @@ El prototipo, construido sobre un carro robot tipo Raspbot con Raspberry Pi 4, c
 | Categoría              | Tecnologías                                  |
 |------------------------|----------------------------------------------|
 | Lenguaje               | Python                                       |
-| Visión por computadora | OpenCV, YOLOv8, Roboflow                     |
+| Visión por computadora | OpenCV, YOLOv5, Roboflow                     |
 | IA y entrenamiento     | Google Colab, RoboFlow                       |
 | Persistencia           | TinyDB (NoSQL embebido)                      |
 | Hardware embebido      | Raspberry Pi 4, Cámara RPi Rev 1.3, GPS NEO-6M, Arduino UNO |
