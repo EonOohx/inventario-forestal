@@ -1,4 +1,6 @@
 # 🤖 Inventariado Forestal Automatizado con Visión por Computadora
+![Inicio del proyecto](https://img.shields.io/badge/Inicio-Junio%202024-blue)
+![Finalización del proyecto](https://img.shields.io/badge/Finalizado-Septiembre%202024-green)
 
 Sistema embebido que permite registrar e identificar especies arbóreas mediante visión artificial y navegación autónoma con GPS. 
 El prototipo, construido sobre un carro robot tipo Raspbot con Raspberry Pi 4, captura imágenes, las geolocaliza y aplica un modelo de IA entrenado con YOLOv5 para la clasificación de árboles.
