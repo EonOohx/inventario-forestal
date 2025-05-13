@@ -27,4 +27,13 @@ El prototipo, construido sobre un carro robot tipo Raspbot con Raspberry Pi 4, c
 Las pruebas de campo se realizaron en el campus del Instituto Tecnológico de Tuxtla Gutiérrez, identificando árboles reales en recorridos cortos (9–13 metros). 
 Se identificó una mejora necesaria en rutas largas, debido a limitaciones en el algoritmo de navegación. El modelo de IA demostró un rendimiento sólido en detección, con margen de mejora si se amplía el dataset.
 
+### 📸 Vistas del prototipo en funcionamiento
 
+#### Detección de árboles en tiempo real
+![Vista detección](./assets/deteccion.png)
+
+#### Prototipo del robot montado
+![Prototipo robot](./assets/prototipo.png)
+
+#### Área utilizada para pruebas de campo
+![Área de prueba](./assets/area.png)
