@@ -30,10 +30,10 @@ Se identificó una mejora necesaria en rutas largas, debido a limitaciones en el
 ### 📸 Vistas del prototipo en funcionamiento
 
 #### Detección de árboles en tiempo real
-![Vista detección](.assests/deteccion.jpg)
+![Vista detección](.assests/deteccion.png)
 
 #### Prototipo del robot montado
-![Prototipo robot](.assests/prototipo.jpg)
+![Prototipo robot](.assests/prototipo.png)
 
 #### Área utilizada para pruebas de campo
-![Área de prueba](.assests/area.jpg)
+![Área de prueba](.assests/area.png)
