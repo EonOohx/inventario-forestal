@@ -5,17 +5,6 @@
 Sistema embebido que permite registrar e identificar especies arbóreas mediante visión artificial y navegación autónoma con GPS. 
 El prototipo, construido sobre un carro robot tipo Raspbot con Raspberry Pi 4, captura imágenes, las geolocaliza y aplica un modelo de IA entrenado con YOLOv5 para la clasificación de árboles.
 
-## 🛠️ Funcionalidades principales
-
-| Categoría              | Tecnologías                                  |
-|------------------------|----------------------------------------------|
-| Lenguaje               | Python                                       |
-| Visión por computadora | OpenCV, YOLOv8, Roboflow                     |
-| IA y entrenamiento     | Google Colab, RoboFlow                       |
-| Persistencia           | TinyDB (NoSQL embebido)                      |
-| Hardware embebido      | Raspberry Pi 4, Cámara RPi Rev 1.3, GPS NEO-6M, Arduino UNO |
-| Comunicación           | Bluetooth (control manual), Serial (GPS)     |
-
 ## ⚙️ Funcionalidades principales
 
 - **Captura automatizada** de imágenes geolocalizadas con cámara RPi.
@@ -39,3 +28,16 @@ Se identificó una mejora necesaria en rutas largas, debido a limitaciones en el
 
 #### Área utilizada para pruebas de campo
 ![Área de prueba](./assets/area.png)
+
+## 🛠️ Tecnologías utilizadas
+
+| Categoría              | Tecnologías                                  |
+|------------------------|----------------------------------------------|
+| Lenguaje               | Python                                       |
+| Visión por computadora | OpenCV, YOLOv8, Roboflow                     |
+| IA y entrenamiento     | Google Colab, RoboFlow                       |
+| Persistencia           | TinyDB (NoSQL embebido)                      |
+| Hardware embebido      | Raspberry Pi 4, Cámara RPi Rev 1.3, GPS NEO-6M, Arduino UNO |
+| Comunicación           | Bluetooth (control manual), Serial (GPS)     |
+
+
