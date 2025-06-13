@@ -9,7 +9,7 @@ class ObservableBool:
 
     @value.setter
     def value(self, nuevo_valor):
-        if new_value != self.valor:
+        if nuevo_valor != self.valor:
             self.valor_prev = self.valor
             self.valor = nuevo_valor
 
