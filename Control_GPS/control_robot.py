@@ -11,7 +11,6 @@ import dbtiny_controller
 import datetime
 import os
 import trazada
-import trazada2
 
 def setup_camara(image):
     image.set(3, 320)
@@ -38,7 +37,6 @@ class ControlRobot:
         self.ROOT_DIR = os.path.dirname(os.path.abspath(__file__))
         self.car = YB_Pcb_Car.YB_Pcb_Car()
         self.trazada = trazada.Trazada()
-        self.trazada2 = trazada2.Trazada()
         self.car.Car_Stop()
         self.db = dbtiny_controller.Database()
         self.pos = [16.75732, -93.17140]
